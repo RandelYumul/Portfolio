@@ -26,7 +26,7 @@ const projects = [
   {
       id: 3,
       title: "VirtuoHero App",
-      description: "A Flutter-based mobile app featuring a login page, user authentication, and smooth UI interactions.",
+      description: "AI-powered mobile platform for Filipino freelancers and students to track skills, monitor progress, and prepare for global digital careers.",
       tags: ["Flutter", "Dart"],
       githubUrl: "https://github.com/shokomori/Virtuo-Hero",
       liveUrl: null,
@@ -36,7 +36,7 @@ const projects = [
   {
       id: 4,
       title: "Fund Buddy",
-      description: "A Flutter-based mobile app featuring a login page, user authentication, and smooth UI interactions.",
+      description: "Mobile-first finance management app that centralizes student organization funds, improves accuracy, and provides real-time financial visibility.",
       tags: ["Flutter", "Dart"],
       githubUrl: "https://github.com/JReshley/FundBuddy",
       liveUrl: null,
