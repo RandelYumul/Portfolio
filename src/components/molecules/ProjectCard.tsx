@@ -25,10 +25,15 @@ export const ProjectCard = ({
   liveUrl,
 }: ProjectCardProps) => {
   return (
-    <Card className="flex flex-col overflow-hidden bg-white dark:bg-black pt-0">
+    <Card className="flex flex-col bg-white dark:bg-black w-full pt-0">
       {imageSrc && (
-        <div className="relative w-full aspect-video overflow-hidden">
-          <ImageProject src={imageSrc} alt={title} hint={imageHint} className="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />
+        <div className="relative w-full aspect-video">
+          <ImageProject
+            src={imageSrc}
+            alt={title}
+            hint={imageHint}
+            className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
+          />
         </div>
       )}
 
@@ -39,11 +44,13 @@ export const ProjectCard = ({
       <CardContent>
         <TextAtom className="text-black dark:text-white mb-4">{description}</TextAtom>
         <div className="flex flex-wrap gap-2">
-          {tags.map(tag => <BadgeAtom key={tag}>{tag}</BadgeAtom>)}
+          {tags.map((tag) => (
+            <BadgeAtom key={tag}>{tag}</BadgeAtom>
+          ))}
         </div>
       </CardContent>
 
-      <CardFooter className="flex justify-end gap-2">
+      <CardFooter className="flex justify-end gap-2 flex-wrap">
         <ButtonProject href={githubUrl} variant="outline" size="sm">
           <Github className="mr-2 h-4 w-4" /> GitHub
         </ButtonProject>
