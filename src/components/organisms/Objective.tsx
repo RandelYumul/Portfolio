@@ -30,7 +30,7 @@ export const Objective = () => {
   return (
     <motion.div
       id="objective"
-      className="flex flex-col py-16 px-4 sm:px-6 md:px-12 lg:px-20"
+      className="flex flex-col py-16  px-0 sm:px-2 md:px-12 lg:px-20"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}

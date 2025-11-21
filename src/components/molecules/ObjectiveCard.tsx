@@ -16,7 +16,7 @@ export const ObjectiveCard = ({ title, description, imageUrl, reverse = false }:
       <div className={`flex flex-col justify-center p-4 sm:p-6 md:p-8 ${reverse ? "md:order-2" : ""}`}>
         <SubHeadingAtom className="text-xl sm:text-2xl md:text-2xl font-bold mb-2">{title}</SubHeadingAtom>
         <div className="border-b-2 border-[#1da1f2] mb-3 sm:mb-4 w-full"></div>
-        <TextAtom className="text-base sm:text-base md:text-lg text-justify">{description}</TextAtom>
+        <TextAtom className="text-sm sm:text-base md:text-lg text-justify">{description}</TextAtom>
       </div>
 
       {/* Image */}
