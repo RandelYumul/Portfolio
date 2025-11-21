@@ -8,7 +8,7 @@ import { HeroActions } from "../molecules/HeroActions";
 export const HeroHeader = () => {
   return (
     <motion.section
-      className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center gap-10"
+      className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center gap-10 pt-10"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
