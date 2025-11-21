@@ -8,7 +8,7 @@
 
 > A modern, responsive portfolio website built with **Atomic Design Methodology**. Showcases projects, skills, and experience with smooth animations and responsive design.
 
-![Portfolio Preview](./preview.png)
+![Portfolio Preview](./public/images/preview.png)
 
 ---
 
@@ -118,15 +118,15 @@ portfolio/
 2. Automatic deployment on push to `main` branch
 3. Fully optimized for **performance, SEO, and responsiveness**
 
-**Live Portfolio:** [Insert Vercel URL here]
+**Live Portfolio:** https://portfolio-two-chi-28.vercel.app/
 
 ---
 
 ## 📞 Contact
 
 * **GitHub:** [RandelYumul](https://github.com/RandelYumul)
-* **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin)
-* **Email:** [[your-email@example.com](mailto:your-email@example.com)]
+* **LinkedIn:** https://www.linkedin.com/in/randel-yumul-7228502bb/(https://www.linkedin.com/in/randel-yumul-7228502bb/)
+* **Email:** [[randel.angelo10@gmail.com](mailto:randel.angelo10@gmail.com)]
 * **Location:** Philippines
 
 ---
