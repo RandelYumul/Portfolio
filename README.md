@@ -126,7 +126,7 @@ portfolio/
 
 * **GitHub:** [RandelYumul](https://github.com/RandelYumul)
 * **LinkedIn:** https://www.linkedin.com/in/randel-yumul-7228502bb/(https://www.linkedin.com/in/randel-yumul-7228502bb/)
-* **Email:** [[randel.angelo10@gmail.com](mailto:randel.angelo10@gmail.com)]
+* **Email:** [[randel.angelo10@gmail.com][(mailto:randel.angelo10@gmail.com)]
 * **Location:** Philippines
 
 ---
