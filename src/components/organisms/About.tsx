@@ -1,15 +1,15 @@
-"use client"; 
+"use client"; // needed because of framer-motion
 import { motion } from "framer-motion";
 import { SectionHeader } from "../molecules/SectionHeader";
 import { AboutCard } from "../molecules/AboutCard";
-import { AboutCard2 } from "../molecules/AboutCard2";
 import { AboutGrid } from "../molecules/AboutGrid";
+import { AboutCard2 } from "../molecules/AboutCard2";
 
 export const About = () => {
   return (
     <motion.div
       id="about"
-      className="flex flex-col py-20"
+      className="flex flex-col py-30"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
@@ -21,7 +21,6 @@ export const About = () => {
       />
 
       <AboutGrid>
-        {/* WHO I AM — always appears first */}
         <AboutCard2
           title="Who I Am"
           imageSrc="/images/who-am-i.webp"
@@ -31,35 +30,33 @@ export const About = () => {
           ]}
           imageAlt="Who I Am"
         />
-
-        {/* JOURNEY & GROWTH — responsive version */}
         <div className="flex flex-col gap-6">
-          {/* Desktop version */}
-          <div className="hidden lg:block">
-            <AboutCard
-              title="Journey & Growth"
-              paragraphs={[
-                "Since I’m new to the field, I’ve taken various courses in front-end development to build a strong foundation, while also dedicating time to studying the back end to broaden my skills. I actively participate in hackathons as the front-end lead, which allows me to apply my knowledge in real-world projects, collaborate with my team, and tackle challenges that push me to think creatively and improve my coding abilities.",
-                "In addition, I’ve attended workshops and training sessions that expand my understanding of different areas in programming. I continuously seek opportunities through projects, collaborations, and competitions that help me gain practical experience and deepen my knowledge. I take on every challenge to improve my skills and become a better developer."
-              ]}
-              imageSrc="/images/journey.webp"
-              imageAlt="Journey & Growth"
-            />
-          </div>
+            {/* Desktop version */}
+            <div className="hidden lg:block">
+                <AboutCard
+                title="Journey & Growth"
+                paragraphs={[
+                    "Since I’m new to the field, I’ve taken various courses in front-end development to build a strong foundation, while also dedicating time to studying the back end to broaden my skills. I actively participate in hackathons as the front-end lead, which allows me to apply my knowledge in real-world projects, collaborate with my team, and tackle challenges that push me to think creatively and improve my coding abilities.",
+                    "In addition, I’ve attended workshops and training sessions that expand my understanding of different areas in programming. I continuously seek opportunities through projects, collaborations, and competitions that help me gain practical experience and deepen my knowledge. I take on every challenge to improve my skills and become a better developer."
+                ]}
+                imageSrc="/images/journey.webp"
+                imageAlt="Journey & Growth"
+                />
+            </div>
 
-          {/* Mobile version */}
-          <div className="block lg:hidden">
-            <AboutCard2
-              title="Journey & Growth"
-              paragraphs={[
-                "Since I’m new to the field, I’ve taken various courses in front-end development to build a strong foundation, while also dedicating time to studying the back end to broaden my skills. I actively participate in hackathons as the front-end lead, which allows me to apply my knowledge in real-world projects, collaborate with my team, and tackle challenges that push me to think creatively and improve my coding abilities.",
-                "In addition, I’ve attended workshops and training sessions that expand my understanding of different areas in programming. I continuously seek opportunities through projects, collaborations, and competitions that help me gain practical experience and deepen my knowledge. I take on every challenge to improve my skills and become a better developer."
-              ]}
-              imageSrc="/images/journey.webp"
-              imageAlt="Journey & Growth Mobile"
-            />
-          </div>
-        </div>
+            {/* Mobile version */}
+            <div className="block lg:hidden">
+                <AboutCard2
+                title="Journey & Growth"
+                paragraphs={[
+                    "Since I’m new to the field, I’ve taken various courses in front-end development to build a strong foundation, while also dedicating time to studying the back end to broaden my skills. I actively participate in hackathons as the front-end lead, which allows me to apply my knowledge in real-world projects, collaborate with my team, and tackle challenges that push me to think creatively and improve my coding abilities.",
+                    "In addition, I’ve attended workshops and training sessions that expand my understanding of different areas in programming. I continuously seek opportunities through projects, collaborations, and competitions that help me gain practical experience and deepen my knowledge. I take on every challenge to improve my skills and become a better developer."
+                ]}
+                imageSrc="/images/journey.webp"
+                imageAlt="Journey & Growth Mobile"
+                />
+            </div>
+            </div>
       </AboutGrid>
     </motion.div>
   );
