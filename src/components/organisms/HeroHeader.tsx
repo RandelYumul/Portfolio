@@ -22,7 +22,7 @@ export const HeroHeader = () => {
       {/* RIGHT SIDE: profile image */}
       <div className="flex justify-center md:justify-center">
         <Image
-          src="/images/profile.jpeg"
+          src="/images/profile.webp"
           alt="Profile photo"
           width={400}
           height={400}
