@@ -20,18 +20,18 @@ export const Skills = () => {
   return (
     <motion.div
       id="skills"
-      className="h-auto flex flex-col pt-30"
+      className="flex flex-col py-16 px-4 sm:px-6 md:px-12 lg:px-20"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 1 }}
     >
       {/* Header */}
-      <div className="flex flex-col items-center justify-start">
-        <HeadingAtom className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center">
+      <div className="flex flex-col items-center justify-start mb-8">
+        <HeadingAtom className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">
           Skills & Expertise
         </HeadingAtom>
-        <TextAtom className="text-lg mb-8 max-w-xl text-center">
+        <TextAtom className="text-base sm:text-lg md:text-lg max-w-xl text-center">
           An overview of my technical skills and professional strengths in software development.
         </TextAtom>
       </div>
