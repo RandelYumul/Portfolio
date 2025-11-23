@@ -11,7 +11,7 @@ interface ObjectiveCardProps {
 
 export const ObjectiveCard = ({ title, description, imageUrl, reverse = false }: ObjectiveCardProps) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
       
       {/* Text Section */}
       <div className={`flex flex-col justify-center sm:p-6 md:p-8 ${reverse ? "md:order-2" : ""}`}>
@@ -27,7 +27,7 @@ export const ObjectiveCard = ({ title, description, imageUrl, reverse = false }:
       </div>
 
       {/* Image Section */}
-      <div className={`w-full flex justify-center ${reverse ? "md:order-1" : ""}`}>
+      <div className={`w-full flex justify-center ${reverse ? "lg:order-1 md:order-2" : ""}`}>
         <ImageObj
           src={imageUrl}
           alt={title}

@@ -10,7 +10,7 @@ export const HeroText = () => {
       <TextAtom className="text-xl md:text-2xl font-medium animate-in fade-in-0 delay-150 duration-500 text-[#1da1f2]">
         Front-End Lead & Aspiring Full-Stack Developer
       </TextAtom>
-      <TextAtom className="text-sm sm:text-base md:text-lg max-w-xl text-center animate-in fade-in-0 delay-300 duration-500">
+      <TextAtom className="text-sm sm:text-base md:text-lg max-w-xl text-center animate-in fade-in-0 delay-300 duration-500 md:text-left">
         Creating user-focused designs that bring ideas to life, while improving skills and gaining experience across different programming languages, frameworks, and machine learning to grow into a full-stack developer.
       </TextAtom>
     </div>
