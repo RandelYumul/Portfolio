@@ -69,10 +69,10 @@ export const Projects = () => {
   return (
     <motion.div
       id="projects"
-      className="h-auto flex flex-col pt-30"
+      className="flex flex-col pt-30"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 1 }}
     >
       <div className="flex flex-col items-center justify-start pt-0 my-4">
