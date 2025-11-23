@@ -16,7 +16,7 @@ export const AboutCard = ({ title, paragraphs, imageSrc, imageAlt }: AboutCardPr
       
       <div className="flex flex-col gap-4">
         {paragraphs.map((text, idx) => (
-          <TextAtom key={idx} className="text-lg sm:text-base md:text-sm text-justify">{text}</TextAtom>
+          <TextAtom key={idx} className="text-sm sm:text-base md:text-lg text-justify">{text}</TextAtom>
         ))}
       </div>
 

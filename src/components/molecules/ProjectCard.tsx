@@ -25,24 +25,24 @@ export const ProjectCard = ({
   liveUrl,
 }: ProjectCardProps) => {
   return (
-    <Card className="flex flex-col bg-white dark:bg-black w-full pt-0">
+    <Card className="flex flex-col bg-white dark:bg-black w-auto pt-0">
       {imageSrc && (
-        <div className="relative w-full aspect-video">
+        <div className="relative w-full h-30 sm:h-40 lg:h-60">
           <ImageProject
             src={imageSrc}
             alt={title}
             hint={imageHint}
-            className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
+            className="object-cover w-full h-full transition-transform duration-300 lg:hover:scale-105"
           />
         </div>
       )}
 
       <CardHeader>
-        <CardTitle className="font-bold">{title}</CardTitle>
+        <CardTitle className="font-bold text-xl sm:text-2xl md:text-3xl">{title}</CardTitle>
       </CardHeader>
 
       <CardContent>
-        <TextAtom className="text-black dark:text-white mb-4">{description}</TextAtom>
+        <TextAtom className="text-sm sm:text-base md:text-lg text-black dark:text-white mb-4">{description}</TextAtom>
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
             <BadgeAtom key={tag}>{tag}</BadgeAtom>

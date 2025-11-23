@@ -17,7 +17,7 @@ export default function HomePage() {
         className="
           w-screen min-h-screen bg-linear-to-b from-white via-gray-100 to-gray-200 
           dark:from-black dark:via-gray-950 dark:to-gray-900 
-          transition-all duration-500 px-12 md:px-10 lg:px-20 xl:px-40
+          transition-all duration-500 px-10 md:px-10 lg:px-20 xl:px-40
         "
       >
         <HeroHeader />

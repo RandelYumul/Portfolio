@@ -14,7 +14,7 @@ export const ObjectiveCard = ({ title, description, imageUrl, reverse = false }:
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full">
       
       {/* Text Section */}
-      <div className={`flex flex-col justify-center p-4 sm:p-6 md:p-8 ${reverse ? "md:order-2" : ""}`}>
+      <div className={`flex flex-col justify-center sm:p-6 md:p-8 ${reverse ? "md:order-2" : ""}`}>
         <SubHeadingAtom className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">
           {title}
         </SubHeadingAtom>
