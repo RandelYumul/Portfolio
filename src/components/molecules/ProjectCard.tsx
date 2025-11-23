@@ -25,7 +25,7 @@ export const ProjectCard = ({
   liveUrl,
 }: ProjectCardProps) => {
   return (
-    <Card className="flex flex-col bg-white dark:bg-black w-auto pt-0">
+    <Card className="flex flex-col bg-white dark:bg-black w-auto pt-0 gap-2 md:gap-4 lg:gap-6">
       {imageSrc && (
         <div className="relative w-full aspect-video">
           <ImageProject

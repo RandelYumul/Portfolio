@@ -17,8 +17,8 @@ export const HeroActions = () => {
         </a>
       </Button>
 
-      <div className="flex items-center gap-2">
-        <IconButtonAtom href="#" label="GitHub">
+      <div className="flex justify-center md:justify-start items-center gap-2">
+        <IconButtonAtom href="https://github.com/RandelYumul" label="GitHub">
           <Github />
         </IconButtonAtom>
         <IconButtonAtom href="https://www.linkedin.com/in/randel-yumul-7228502bb/" label="LinkedIn">

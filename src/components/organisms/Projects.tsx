@@ -77,7 +77,7 @@ export const Projects = () => {
     >
       <div className="flex flex-col items-center justify-start pt-0 my-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center">Projects</h1>
-        <p className="text-lg mb-8 max-w-xl text-center">
+        <p className="text-base sm:text-lg md:text-lg max-w-xl text-center">
           Selected projects demonstrating my technical abilities and experience in development.
         </p>
       </div>
