@@ -27,7 +27,7 @@ export const ProjectCard = ({
   return (
     <Card className="flex flex-col bg-white dark:bg-black w-auto pt-0">
       {imageSrc && (
-        <div className="relative w-full h-30 sm:h-40 lg:h-60">
+        <div className="relative w-full aspect-video">
           <ImageProject
             src={imageSrc}
             alt={title}
